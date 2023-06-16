@@ -1,20 +1,10 @@
 import 'dart:async';
 
-<<<<<<< HEAD
-
-import 'package:ebook/src/features/common/data/models/category_feed.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
-
-import '../../repositories/favorites/favorites_repository.dart';
-
-=======
 import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
 import 'package:flutter_ebook_app/src/features/common/data/repositories/favorites/favorites_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
->>>>>>> fix-style
 part 'favorites_state.dart';
 
 part 'favorites_state_notifier.freezed.dart';

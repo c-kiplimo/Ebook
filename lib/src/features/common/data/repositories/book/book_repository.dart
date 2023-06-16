@@ -2,14 +2,8 @@ import 'dart:convert';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-<<<<<<< HEAD
-import 'package:ebook/src/features/common/data/failures/http_failure.dart';
-import 'package:ebook/src/features/common/data/models/category_feed.dart';
-
-=======
 import 'package:flutter_ebook_app/src/features/common/data/failures/http_failure.dart';
 import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
->>>>>>> fix-style
 import 'package:xml2json/xml2json.dart';
 
 abstract class BookRepository {

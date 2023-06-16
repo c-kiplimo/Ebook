@@ -1,29 +1,16 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-<<<<<<< HEAD
-import 'package:ebook/src/features/common/widgets/modal_dialogs/custom_alert.dart';
-import 'package:flutter/material.dart';
-
-=======
 import 'package:flutter/material.dart';
 import 'package:flutter_ebook_app/src/features/common/constants/strings.dart';
 import 'package:flutter_ebook_app/src/features/common/constants/utils.dart';
 import 'package:flutter_ebook_app/src/features/common/widgets/modal_dialogs/custom_alert.dart';
 import 'package:flutter_ebook_app/src/features/common/data/notifiers/downloads/downloads_state_notifier.dart';
->>>>>>> fix-style
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:path/path.dart' as path;
 
-<<<<<<< HEAD
-import '../../constants/strings.dart';
-import '../../constants/utils.dart';
-import '../../data/notifiers/downloads/downloads_state_notifier.dart';
-
-=======
->>>>>>> fix-style
 class DownloadAlert extends ConsumerStatefulWidget {
   final String url;
   final String name;

@@ -89,15 +89,6 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-<<<<<<< HEAD
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "ebook" "\0"
-            VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "ebook" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "ebook.exe" "\0"
-            VALUE "ProductName", "ebook" "\0"
-=======
             VALUE "CompanyName", "dev.jideguru" "\0"
             VALUE "FileDescription", "flutter_ebook_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
@@ -105,7 +96,6 @@ BEGIN
             VALUE "LegalCopyright", "Copyright (C) 2022 dev.jideguru. All rights reserved." "\0"
             VALUE "OriginalFilename", "flutter_ebook_app.exe" "\0"
             VALUE "ProductName", "flutter_ebook_app" "\0"
->>>>>>> fix-style
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-    "name": "ebook",
-    "short_name": "ebook",
-=======
     "name": "flutter_ebook_app",
     "short_name": "flutter_ebook_app",
->>>>>>> fix-style
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

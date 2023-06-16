@@ -18,11 +18,7 @@ class AlignmentButton extends StatelessWidget {
         decoration: BoxDecoration(
           border: Border.all(),
           color: readerTheme.textAlign == textAlign
-<<<<<<< HEAD
-              ? Theme.of(context).colorScheme.background
-=======
               ? Theme.of(context).backgroundColor
->>>>>>> fix-style
               : null,
         ),
         child: Material(

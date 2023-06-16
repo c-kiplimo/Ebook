@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-
-import 'package:ebook/src/features/book_details/data/repositories/book_details_repository.dart';
-import 'package:ebook/src/features/common/data/models/category_feed.dart';
-=======
 import 'package:flutter_ebook_app/src/features/book_details/data/repositories/book_details_repository.dart';
 import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
->>>>>>> fix-style
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

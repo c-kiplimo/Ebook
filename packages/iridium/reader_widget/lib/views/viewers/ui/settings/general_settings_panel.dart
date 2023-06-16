@@ -95,11 +95,7 @@ class _GeneralSettingsPanelState extends State<GeneralSettingsPanel> {
 
   Widget _buildColorThemeRow() => ToggleButtons(
         isSelected: isSelected,
-<<<<<<< HEAD
-        color: Theme.of(context).textTheme.labelLarge?.color,
-=======
         color: Theme.of(context).textTheme.button?.color,
->>>>>>> fix-style
         constraints: const BoxConstraints(
           minWidth: 64.0,
           minHeight: 48.0,

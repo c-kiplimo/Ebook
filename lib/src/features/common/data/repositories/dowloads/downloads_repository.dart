@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../data_sources/downloads/downloads_local_data_source.dart';
-import '../../data_sources/downloads/downloads_local_data_source_impl.dart';
-
-=======
 import 'package:flutter_ebook_app/src/features/common/data/data_sources/downloads/downloads_local_data_source.dart';
 import 'package:flutter_ebook_app/src/features/common/data/data_sources/downloads/downloads_local_data_source_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
->>>>>>> fix-style
 abstract class DownloadsRepository {
   const DownloadsRepository();
 

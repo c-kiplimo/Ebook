@@ -1,17 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import 'package:uuid/uuid.dart';
-
-import '../../../../router.dart';
-import '../../common/data/notifiers/downloads/downloads_state_notifier.dart';
-import '../../common/widgets/empty_view.dart';
-import '../../common/widgets/loading_widget.dart';
-
-=======
 import 'package:flutter_ebook_app/src/features/common/widgets/loading_widget.dart';
 import 'package:flutter_ebook_app/src/features/common/data/notifiers/downloads/downloads_state_notifier.dart';
 import 'package:flutter_ebook_app/src/features/common/widgets/empty_view.dart';
@@ -21,7 +9,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iridium_reader_widget/views/viewers/epub_screen.dart';
 import 'package:uuid/uuid.dart';
 
->>>>>>> fix-style
 class DownloadsScreen extends ConsumerStatefulWidget {
   const DownloadsScreen({Key? key}) : super(key: key);
 
@@ -159,12 +146,6 @@ class _DownloadsScreenState extends ConsumerState<DownloadsScreen> {
   }
 }
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> fix-style
 class _DismissibleBackground extends StatelessWidget {
   const _DismissibleBackground({Key? key}) : super(key: key);
 

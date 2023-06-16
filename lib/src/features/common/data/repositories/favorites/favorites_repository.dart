@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-
-import 'package:ebook/src/features/common/data/models/category_feed.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../data_sources/favorites/favorites_local_data_source.dart';
-import '../../data_sources/favorites/favorites_local_data_source_impl.dart';
-
-=======
 import 'package:flutter_ebook_app/src/features/common/data/data_sources/favorites/favorites_local_data_source.dart';
 import 'package:flutter_ebook_app/src/features/common/data/data_sources/favorites/favorites_local_data_source_impl.dart';
 import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
->>>>>>> fix-style
 abstract class FavoritesRepository {
   const FavoritesRepository();
 

@@ -1,17 +1,9 @@
 import 'dart:async';
 
-<<<<<<< HEAD
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
-
-import '../../repositories/dowloads/downloads_repository.dart';
-
-=======
 import 'package:flutter_ebook_app/src/features/common/data/repositories/dowloads/downloads_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
->>>>>>> fix-style
 part 'downloads_state.dart';
 
 part 'downloads_state_notifier.freezed.dart';

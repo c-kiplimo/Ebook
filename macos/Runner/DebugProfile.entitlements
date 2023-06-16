@@ -8,10 +8,7 @@
 	<true/>
 	<key>com.apple.security.network.server</key>
 	<true/>
-<<<<<<< HEAD
-=======
 	<key>com.apple.security.network.client</key>
     <true/>
->>>>>>> fix-style
 </dict>
 </plist>
