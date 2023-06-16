@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import 'package:ebook/src/features/common/data/data_sources/favorites/favorites_local_data_source.dart';
 import 'package:ebook/src/features/common/data/providers/database_provider.dart';
@@ -6,6 +7,14 @@ import 'package:sembast/sembast.dart';
 
 import '../../models/category_feed.dart';
 
+=======
+import 'package:flutter_ebook_app/src/features/common/data/data_sources/favorites/favorites_local_data_source.dart';
+import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
+import 'package:flutter_ebook_app/src/features/common/data/providers/database_provider.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:sembast/sembast.dart';
+
+>>>>>>> fix-style
 class FavoritesLocalDataSourceImpl implements FavoritesLocalDataSource {
   final Database _database;
   final StoreRef<String, Map<String, dynamic>> _store;

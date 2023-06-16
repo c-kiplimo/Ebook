@@ -27,6 +27,11 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+<<<<<<< HEAD
+=======
+      <Testables>
+      </Testables>
+>>>>>>> fix-style
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -36,8 +41,13 @@
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+<<<<<<< HEAD
       <Testables>
       </Testables>
+=======
+      <AdditionalOptions>
+      </AdditionalOptions>
+>>>>>>> fix-style
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -59,6 +69,11 @@
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+<<<<<<< HEAD
+=======
+      <AdditionalOptions>
+      </AdditionalOptions>
+>>>>>>> fix-style
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Profile"

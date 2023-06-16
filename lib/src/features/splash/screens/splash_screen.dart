@@ -1,9 +1,14 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 import '../../../../router.dart';
 import '../../tabs/screens/tabs_screen.dart';
+=======
+import 'package:flutter_ebook_app/src/features/tabs/screens/tabs_screen.dart';
+import 'package:flutter_ebook_app/router.dart';
+>>>>>>> fix-style
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:ebook/src/features/common/widgets/book_item.dart';
 import 'package:flutter/material.dart';
 
@@ -7,6 +8,15 @@ import '../../common/data/models/category_feed.dart';
 import '../../common/data/notifiers/favorites/favorites_state_notifier.dart';
 import '../../common/widgets/empty_view.dart';
 
+=======
+import 'package:flutter/material.dart';
+import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
+import 'package:flutter_ebook_app/src/features/common/data/notifiers/favorites/favorites_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/book_item.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/empty_view.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+>>>>>>> fix-style
 class FavoritesScreen extends ConsumerStatefulWidget {
   const FavoritesScreen({super.key});
 

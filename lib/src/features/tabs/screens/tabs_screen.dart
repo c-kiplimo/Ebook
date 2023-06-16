@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_icons/flutter_icons.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -10,6 +11,17 @@ import '../../home/screens/home_screen.dart';
 import '../../settings/screens/settings_screen.dart';
 import '../data/notifiers/current_tab_notifier.dart';
 
+=======
+import 'package:flutter_ebook_app/src/features/common/widgets/modal_dialogs/exit_modal_dialog.dart';
+import 'package:flutter_ebook_app/src/features/explore/screens/explore_screen.dart';
+import 'package:flutter_ebook_app/src/features/home/data/notifiers/home_feed_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/home/screens/home_screen.dart';
+import 'package:flutter_ebook_app/src/features/settings/screens/settings_screen.dart';
+import 'package:flutter_ebook_app/src/features/tabs/data/notifiers/current_tab_notifier.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+>>>>>>> fix-style
 class TabsScreen extends ConsumerWidget {
   const TabsScreen({super.key});
 

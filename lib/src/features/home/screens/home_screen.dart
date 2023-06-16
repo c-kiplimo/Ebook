@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../router.dart';
@@ -11,6 +12,19 @@ import '../../common/widgets/loading_widget.dart';
 import '../../explore/screens/genre_screen.dart';
 import '../data/notifiers/home_feed_state_notifier.dart';
 
+=======
+import 'package:flutter_ebook_app/src/features/common/constants/strings.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/error_widget.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/loading_widget.dart';
+import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/book_card.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/book_list_item.dart';
+import 'package:flutter_ebook_app/src/features/explore/screens/genre_screen.dart';
+import 'package:flutter_ebook_app/src/features/home/data/notifiers/home_feed_state_notifier.dart';
+import 'package:flutter_ebook_app/router.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+>>>>>>> fix-style
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 

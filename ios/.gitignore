@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 **/dgph
+=======
+>>>>>>> fix-style
 *.mode1v3
 *.mode2v3
 *.moved-aside
@@ -19,7 +22,10 @@ Flutter/App.framework
 Flutter/Flutter.framework
 Flutter/Flutter.podspec
 Flutter/Generated.xcconfig
+<<<<<<< HEAD
 Flutter/ephemeral/
+=======
+>>>>>>> fix-style
 Flutter/app.flx
 Flutter/app.zip
 Flutter/flutter_assets/

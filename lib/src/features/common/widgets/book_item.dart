@@ -1,4 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
+<<<<<<< HEAD
 import 'package:ebook/src/features/book_details/screens/book_details_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -8,6 +9,15 @@ import '../../../../router.dart';
 import '../data/models/category_feed.dart';
 import 'loading_widget.dart';
 
+=======
+import 'package:flutter/material.dart';
+import 'package:flutter_ebook_app/src/features/book_details/screens/book_details_screen.dart';
+import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/loading_widget.dart';
+import 'package:iridium_reader_widget/util/router.dart';
+import 'package:uuid/uuid.dart';
+
+>>>>>>> fix-style
 
 class BookItem extends StatelessWidget {
   final String img;

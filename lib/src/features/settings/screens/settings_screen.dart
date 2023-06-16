@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -7,6 +8,15 @@ import '../../common/data/notifiers/current_app_theme/current_app_theme_state_no
 import '../../downloads/screens/download_screen.dart';
 import '../../favorites/screens/favorites_screen.dart';
 
+=======
+import 'package:flutter_ebook_app/src/features/common/data/notifiers/current_app_theme/current_app_theme_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/downloads/screens/download_screen.dart';
+import 'package:flutter_ebook_app/router.dart';
+import 'package:flutter_ebook_app/src/features/favorites/screens/favorites_screen.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+>>>>>>> fix-style
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);
 

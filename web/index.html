@@ -23,13 +23,21 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<<<<<<< HEAD
   <meta name="apple-mobile-web-app-title" content="ebook">
+=======
+  <meta name="apple-mobile-web-app-title" content="flutter_ebook_app">
+>>>>>>> fix-style
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+<<<<<<< HEAD
   <title>ebook</title>
+=======
+  <title>flutter_ebook_app</title>
+>>>>>>> fix-style
   <link rel="manifest" href="manifest.json">
 
   <script>
@@ -46,12 +54,20 @@
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
+<<<<<<< HEAD
         },
         onEntrypointLoaded: function(engineInitializer) {
           engineInitializer.initializeEngine().then(function(appRunner) {
             appRunner.runApp();
           });
         }
+=======
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+>>>>>>> fix-style
       });
     });
   </script>

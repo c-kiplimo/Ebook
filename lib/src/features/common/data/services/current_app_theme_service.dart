@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -6,6 +7,14 @@ import '../../constants/shared_preferences_key.dart';
 import '../notifiers/current_app_theme/current_app_theme_state_notifier.dart';
 import '../providers/shared_preferences_provider.dart';
 
+=======
+import 'package:flutter_ebook_app/src/features/common/constants/shared_preferences_key.dart';
+import 'package:flutter_ebook_app/src/features/common/data/notifiers/current_app_theme/current_app_theme_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/common/data/providers/shared_preferences_provider.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+>>>>>>> fix-style
 class CurrentAppThemeService {
   final SharedPreferences? _sharedPreferences;
 

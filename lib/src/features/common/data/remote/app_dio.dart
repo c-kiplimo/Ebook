@@ -1,7 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
+<<<<<<< HEAD
 import 'package:ebook/src/features/common/constants/api.dart';
 
+=======
+import 'package:flutter_ebook_app/src/features/common/constants/api.dart';
+>>>>>>> fix-style
 
 class AppDio with DioMixin implements Dio {
   AppDio._() {

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 import 'package:ebook/src/features/common/data/services/current_app_theme_service.dart';
+=======
+import 'package:flutter_ebook_app/src/features/common/data/services/current_app_theme_service.dart';
+>>>>>>> fix-style
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class CurrentAppThemeStateNotifier extends StateNotifier<CurrentAppTheme> {

@@ -1,19 +1,36 @@
 import 'package:cached_network_image/cached_network_image.dart';
+<<<<<<< HEAD
 import 'package:ebook/src/features/book_details/data/notifier/book_details_state_notifier.dart';
 import 'package:ebook/src/features/common/data/models/category_feed.dart';
 import 'package:ebook/src/features/common/data/notifiers/downloads/downloads_state_notifier.dart';
 import 'package:ebook/src/features/common/widgets/book_list_item.dart';
 import 'package:ebook/src/features/common/widgets/error_widget.dart';
 import 'package:flutter/material.dart';
+=======
+import 'package:flutter/material.dart';
+import 'package:flutter_ebook_app/src/features/common/data/notifiers/favorites/favorites_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/error_widget.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/modal_dialogs/download_alert.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/loading_widget.dart';
+import 'package:flutter_ebook_app/src/features/book_details/data/notifier/book_details_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/common/data/models/category_feed.dart';
+import 'package:flutter_ebook_app/src/features/common/data/notifiers/downloads/downloads_state_notifier.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/book_list_item.dart';
+import 'package:flutter_ebook_app/src/features/common/widgets/description_text.dart';
+import 'package:flutter_ebook_app/router.dart';
+>>>>>>> fix-style
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iridium_reader_widget/views/viewers/epub_screen.dart';
 import 'package:share_plus/share_plus.dart';
+<<<<<<< HEAD
 import '../../../../router.dart';
 import '../../common/data/notifiers/favorites/favorites_state_notifier.dart';
 import '../../common/widgets/description_text.dart';
 import '../../common/widgets/loading_widget.dart';
 import '../../common/widgets/modal_dialogs/download_alert.dart';
+=======
+>>>>>>> fix-style
 
 class BookDetailsScreen extends ConsumerStatefulWidget {
   final Entry entry;

@@ -10,7 +10,11 @@ class ToolbarPageNumber extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 8.0),
         child: Text(
           "$pageNumber",
+<<<<<<< HEAD
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+=======
+          style: Theme.of(context).textTheme.bodyText2?.copyWith(
+>>>>>>> fix-style
                 color: Theme.of(context).colorScheme.onPrimaryContainer,
               ),
         ),
